@@ -1,7 +1,7 @@
-﻿//JavaScriptのソースまでみてるなんて。よっぽど気に入ったのね。
-//このスクリプトは海外のサイトを日本語に亜希子が変えたのよ。
-//いいスクリプトいっぱいあるから行ってみてね。（亜希子）
-//　　　　　↓
+﻿・ｿ//JavaScript縺ｮ繧ｽ繝ｼ繧ｹ縺ｾ縺ｧ縺ｿ縺ｦ繧九↑繧薙※縲ゅｈ縺｣縺ｽ縺ｩ豌励↓蜈･縺｣縺溘・縺ｭ縲・
+//縺薙・繧ｹ繧ｯ繝ｪ繝励ヨ縺ｯ豬ｷ螟悶・繧ｵ繧､繝医ｒ譌･譛ｬ隱槭↓莠懷ｸ悟ｭ舌′螟峨∴縺溘・繧医・
+//縺・＞繧ｹ繧ｯ繝ｪ繝励ヨ縺・▲縺ｱ縺・≠繧九°繧芽｡後▲縺ｦ縺ｿ縺ｦ縺ｭ縲ゑｼ井ｺ懷ｸ悟ｭ撰ｼ・
+//縲縲縲縲縲竊・
 //Tic Tac Toe- By Brian (http://scriptasylum.com/bgaudiodr/)
 //Modified by Yossi Cohen (yossi@prosite.co.il)
 //Featured on Dynamicdrive.com
@@ -51,13 +51,13 @@ if(!playerstarts)pcturn();
 
 function writetext(num){
 switch(num){
-case 1: content='引き分けっす。';
+case 1: content='蠑輔″蛻・￠縺｣縺吶・;
 break;
-case 2: content='(*´д｀)σヘタクソ';
+case 2: content='(*ﾂｴﾐｴ・)ﾏ・・繧ｿ繧ｯ繧ｽ';
 break;
-case 3: content='勝ててよかったね。';
+case 3: content='蜍昴※縺ｦ繧医°縺｣縺溘・縲・;
 break;
-case 4: content='レベル: '+level+'\n\n勝ち:  このレベルの勝ち- '+playerwins[level]+'  (計: '+(playerwins[0]+playerwins[1]+playerwins[2]+playerwins[3])+')\n負け:  このレベルで負け- '+pcwins[level]+'  (計: '+(pcwins[0]+pcwins[1]+pcwins[2]+pcwins[3])+')\n引分:  このレベルで引分- '+draws[level]+'  (計: '+(draws[0]+draws[1]+draws[2]+draws[3])+')';
+case 4: content='繝ｬ繝吶Ν: '+level+'\n\n蜍昴■:  縺薙・繝ｬ繝吶Ν縺ｮ蜍昴■- '+playerwins[level]+'  (險・ '+(playerwins[0]+playerwins[1]+playerwins[2]+playerwins[3])+')\n雋縺・  縺薙・繝ｬ繝吶Ν縺ｧ雋縺・ '+pcwins[level]+'  (險・ '+(pcwins[0]+pcwins[1]+pcwins[2]+pcwins[3])+')\n蠑募・:  縺薙・繝ｬ繝吶Ν縺ｧ蠑募・- '+draws[level]+'  (險・ '+(draws[0]+draws[1]+draws[2]+draws[3])+')';
 break;
 }
 
@@ -81,7 +81,7 @@ moves[cellnum]=1;
 game[done]=cellnum;
 done++;
 findwinner(true);
-}else alert('そこには置けませんよー');
+}else alert('縺昴％縺ｫ縺ｯ鄂ｮ縺代∪縺帙ｓ繧医・');
 }}
 
 function pcstrategy(istowin){
