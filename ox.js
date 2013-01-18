@@ -1,7 +1,7 @@
-//JavaScript‚Ìƒ\[ƒX‚Ü‚Å‚İ‚Ä‚é‚È‚ñ‚ÄB‚æ‚Á‚Û‚Ç‹C‚É“ü‚Á‚½‚Ì‚ËB
-//‚±‚ÌƒXƒNƒŠƒvƒg‚ÍŠCŠO‚ÌƒTƒCƒg‚ğ“ú–{Œê‚ÉˆŸŠóq‚ª•Ï‚¦‚½‚Ì‚æB
-//‚¢‚¢ƒXƒNƒŠƒvƒg‚¢‚Á‚Ï‚¢‚ ‚é‚©‚çs‚Á‚Ä‚İ‚Ä‚ËBiˆŸŠóqj
-//@@@@@«
+ï»¿//JavaScriptã®ã‚½ãƒ¼ã‚¹ã¾ã§ã¿ã¦ã‚‹ãªã‚“ã¦ã€‚ã‚ˆã£ã½ã©æ°—ã«å…¥ã£ãŸã®ã­ã€‚
+//ã“ã®ã‚¹ã‚¯ãƒªãƒ—ãƒˆã¯æµ·å¤–ã®ã‚µã‚¤ãƒˆã‚’æ—¥æœ¬èªã«äºœå¸Œå­ãŒå¤‰ãˆãŸã®ã‚ˆã€‚
+//ã„ã„ã‚¹ã‚¯ãƒªãƒ—ãƒˆã„ã£ã±ã„ã‚ã‚‹ã‹ã‚‰è¡Œã£ã¦ã¿ã¦ã­ã€‚ï¼ˆäºœå¸Œå­ï¼‰
+//ã€€ã€€ã€€ã€€ã€€â†“
 //Tic Tac Toe- By Brian (http://scriptasylum.com/bgaudiodr/)
 //Modified by Yossi Cohen (yossi@prosite.co.il)
 //Featured on Dynamicdrive.com
@@ -51,13 +51,13 @@ if(!playerstarts)pcturn();
 
 function writetext(num){
 switch(num){
-case 1: content='ˆø‚«•ª‚¯‚Á‚·B';
+case 1: content='å¼•ãåˆ†ã‘ã£ã™ã€‚';
 break;
-case 2: content='(*L„tM)ƒĞƒwƒ^ƒNƒ\';
+case 2: content='(*Â´Ğ´ï½€)Ïƒãƒ˜ã‚¿ã‚¯ã‚½';
 break;
-case 3: content='Ÿ‚Ä‚Ä‚æ‚©‚Á‚½‚ËB';
+case 3: content='å‹ã¦ã¦ã‚ˆã‹ã£ãŸã­ã€‚';
 break;
-case 4: content='ƒŒƒxƒ‹: '+level+'\n\nŸ‚¿:  ‚±‚ÌƒŒƒxƒ‹‚ÌŸ‚¿- '+playerwins[level]+'  (Œv: '+(playerwins[0]+playerwins[1]+playerwins[2]+playerwins[3])+')\n•‰‚¯:  ‚±‚ÌƒŒƒxƒ‹‚Å•‰‚¯- '+pcwins[level]+'  (Œv: '+(pcwins[0]+pcwins[1]+pcwins[2]+pcwins[3])+')\nˆø•ª:  ‚±‚ÌƒŒƒxƒ‹‚Åˆø•ª- '+draws[level]+'  (Œv: '+(draws[0]+draws[1]+draws[2]+draws[3])+')';
+case 4: content='ãƒ¬ãƒ™ãƒ«: '+level+'\n\nå‹ã¡:  ã“ã®ãƒ¬ãƒ™ãƒ«ã®å‹ã¡- '+playerwins[level]+'  (è¨ˆ: '+(playerwins[0]+playerwins[1]+playerwins[2]+playerwins[3])+')\nè² ã‘:  ã“ã®ãƒ¬ãƒ™ãƒ«ã§è² ã‘- '+pcwins[level]+'  (è¨ˆ: '+(pcwins[0]+pcwins[1]+pcwins[2]+pcwins[3])+')\nå¼•åˆ†:  ã“ã®ãƒ¬ãƒ™ãƒ«ã§å¼•åˆ†- '+draws[level]+'  (è¨ˆ: '+(draws[0]+draws[1]+draws[2]+draws[3])+')';
 break;
 }
 
@@ -81,7 +81,7 @@ moves[cellnum]=1;
 game[done]=cellnum;
 done++;
 findwinner(true);
-}else alert('‚»‚±‚É‚Í’u‚¯‚Ü‚¹‚ñ‚æ[');
+}else alert('ãã“ã«ã¯ç½®ã‘ã¾ã›ã‚“ã‚ˆãƒ¼');
 }}
 
 function pcstrategy(istowin){
