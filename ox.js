@@ -1,7 +1,7 @@
-﻿・ｿ//JavaScript縺ｮ繧ｽ繝ｼ繧ｹ縺ｾ縺ｧ縺ｿ縺ｦ繧九↑繧薙※縲ゅｈ縺｣縺ｽ縺ｩ豌励↓蜈･縺｣縺溘・縺ｭ縲・
-//縺薙・繧ｹ繧ｯ繝ｪ繝励ヨ縺ｯ豬ｷ螟悶・繧ｵ繧､繝医ｒ譌･譛ｬ隱槭↓莠懷ｸ悟ｭ舌′螟峨∴縺溘・繧医・
-//縺・＞繧ｹ繧ｯ繝ｪ繝励ヨ縺・▲縺ｱ縺・≠繧九°繧芽｡後▲縺ｦ縺ｿ縺ｦ縺ｭ縲ゑｼ井ｺ懷ｸ悟ｭ撰ｼ・
-//縲縲縲縲縲竊・
+﻿・ｿ繝ｻ・ｿ//JavaScript邵ｺ・ｮ郢ｧ・ｽ郢晢ｽｼ郢ｧ・ｹ邵ｺ・ｾ邵ｺ・ｧ邵ｺ・ｿ邵ｺ・ｦ郢ｧ荵昶・郢ｧ阮吮ｻ邵ｲ繧・ｽ育ｸｺ・｣邵ｺ・ｽ邵ｺ・ｩ雎悟干竊楢怦・･邵ｺ・｣邵ｺ貅倥・邵ｺ・ｭ邵ｲ繝ｻ
+//邵ｺ阮吶・郢ｧ・ｹ郢ｧ・ｯ郢晢ｽｪ郢晏干繝ｨ邵ｺ・ｯ雎ｬ・ｷ陞滓じ繝ｻ郢ｧ・ｵ郢ｧ・､郢晏現・定ｭ鯉ｽ･隴幢ｽｬ髫ｱ讒ｭ竊楢滋諛ｷ・ｸ謔滂ｽｭ闊娯ｲ陞溷ｳｨ竏ｴ邵ｺ貅倥・郢ｧ蛹ｻﾂ繝ｻ
+//邵ｺ繝ｻ・樒ｹｧ・ｹ郢ｧ・ｯ郢晢ｽｪ郢晏干繝ｨ邵ｺ繝ｻ笆ｲ邵ｺ・ｱ邵ｺ繝ｻ竕郢ｧ荵敖ｰ郢ｧ闃ｽ・｡蠕娯夢邵ｺ・ｦ邵ｺ・ｿ邵ｺ・ｦ邵ｺ・ｭ邵ｲ繧托ｽｼ莠包ｽｺ諛ｷ・ｸ謔滂ｽｭ謦ｰ・ｼ繝ｻ
+//邵ｲﾂ邵ｲﾂ邵ｲﾂ邵ｲﾂ邵ｲﾂ遶翫・
 //Tic Tac Toe- By Brian (http://scriptasylum.com/bgaudiodr/)
 //Modified by Yossi Cohen (yossi@prosite.co.il)
 //Featured on Dynamicdrive.com
@@ -51,13 +51,13 @@ if(!playerstarts)pcturn();
 
 function writetext(num){
 switch(num){
-case 1: content='蠑輔″蛻・￠縺｣縺吶・;
+case 1: content='陟題ｼ披ｳ陋ｻ繝ｻ・邵ｺ・｣邵ｺ蜷ｶﾂ繝ｻ;
 break;
-case 2: content='(*ﾂｴﾐｴ・)ﾏ・・繧ｿ繧ｯ繧ｽ';
+case 2: content='(*・ゑｽｴ・撰ｽｴ繝ｻﾂ)・上・繝ｻ郢ｧ・ｿ郢ｧ・ｯ郢ｧ・ｽ';
 break;
-case 3: content='蜍昴※縺ｦ繧医°縺｣縺溘・縲・;
+case 3: content='陷肴亢窶ｻ邵ｺ・ｦ郢ｧ蛹ｻﾂｰ邵ｺ・｣邵ｺ貅倥・邵ｲ繝ｻ;
 break;
-case 4: content='繝ｬ繝吶Ν: '+level+'\n\n蜍昴■:  縺薙・繝ｬ繝吶Ν縺ｮ蜍昴■- '+playerwins[level]+'  (險・ '+(playerwins[0]+playerwins[1]+playerwins[2]+playerwins[3])+')\n雋縺・  縺薙・繝ｬ繝吶Ν縺ｧ雋縺・ '+pcwins[level]+'  (險・ '+(pcwins[0]+pcwins[1]+pcwins[2]+pcwins[3])+')\n蠑募・:  縺薙・繝ｬ繝吶Ν縺ｧ蠑募・- '+draws[level]+'  (險・ '+(draws[0]+draws[1]+draws[2]+draws[3])+')';
+case 4: content='郢晢ｽｬ郢晏生ﾎ・ '+level+'\n\n陷肴亢笆:  邵ｺ阮吶・郢晢ｽｬ郢晏生ﾎ晉ｸｺ・ｮ陷肴亢笆- '+playerwins[level]+'  (髫ｪ繝ｻ '+(playerwins[0]+playerwins[1]+playerwins[2]+playerwins[3])+')\n髮具｣ｰ邵ｺ繝ｻ  邵ｺ阮吶・郢晢ｽｬ郢晏生ﾎ晉ｸｺ・ｧ髮具｣ｰ邵ｺ繝ｻ '+pcwins[level]+'  (髫ｪ繝ｻ '+(pcwins[0]+pcwins[1]+pcwins[2]+pcwins[3])+')\n陟大供繝ｻ:  邵ｺ阮吶・郢晢ｽｬ郢晏生ﾎ晉ｸｺ・ｧ陟大供繝ｻ- '+draws[level]+'  (髫ｪ繝ｻ '+(draws[0]+draws[1]+draws[2]+draws[3])+')';
 break;
 }
 
@@ -81,7 +81,7 @@ moves[cellnum]=1;
 game[done]=cellnum;
 done++;
 findwinner(true);
-}else alert('縺昴％縺ｫ縺ｯ鄂ｮ縺代∪縺帙ｓ繧医・');
+}else alert('邵ｺ譏ｴ・・ｸｺ・ｫ邵ｺ・ｯ驗ゑｽｮ邵ｺ莉｣竏ｪ邵ｺ蟶呻ｽ鍋ｹｧ蛹ｻ繝ｻ');
 }}
 
 function pcstrategy(istowin){
